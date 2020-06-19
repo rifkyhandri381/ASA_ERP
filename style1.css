@@ -1,0 +1,79 @@
+\body {
+    background: #1e2730;
+    font-family: Arial;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.2);
+  }
+  header {
+    height: 10vh;
+    color: Linen;
+    text-align: center;
+  }
+  header p {
+    padding: 0.5em;
+  }
+  p {
+    font-size:5vw;
+    color:linen;
+    text-align:center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  #wrapper {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    /*height: 80vh;
+    min-height:20em;*/
+    width:80%;
+    margin:0 auto;
+    
+  }
+  .innerdiv{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    outline: none;
+  }
+  svg {
+    width:100%
+  }
+  circle {
+    fill: none;
+    stroke-width: 3;
+    stroke: #24303a;
+  }
+  path {
+    fill: transparent;
+    stroke-width: 3;
+    stroke-linecap: round;
+  }
+  
+  #aPath {
+    stroke: #1ed5f6;
+  }
+  #bPath {
+    stroke: #f61ed5;
+  }
+  #gPath {
+    stroke: #d5f61e;
+  }
+  
+  text {
+    dominant-baseline: central;
+    text-anchor: middle;
+    font-size: 5px;
+    fill: Linen;
+  }
+  
+  @media only screen and (min-width:480px) {
+    #wrapper {
+    display: flex;
+    flex-direction:row;
+    height: 60vh;
+    min-height:20em;
+  }
+    p {
+      font-size:3vw;}
+  }
+  

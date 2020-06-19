@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="box">  
+    <div class=".chart1" data-percent="86">86
+    </div>
+    </div>
+    </div>
+    <script >
+    
+    // Vanilla JavaScript
+
+	const myChart = new EasyPieChart(document.querySelector('.chart1'), {
+
+	      // options here
+	});
+	// jQuery
+	$(function() {
+	  $('.chart1').easyPieChart({
+	    // options here
+	  });
+	});
+    </script>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="Experiments/jquery.easypiechart.js"></script>
+</html>
